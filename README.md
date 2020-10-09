@@ -7,7 +7,5 @@ https://siyandamaykiso.github.io/Professional-Materials/
 Visual Studio Code was used to create the elements
 
 
-2-3 Screenshots / gifs of the app
-
 Contact information: s.mayekiso@gmail.com
 
