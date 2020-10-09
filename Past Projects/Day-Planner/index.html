@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <div id="Day Planner" ></div>
+
+  <script src="script.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.0/moment.min.js"></script>
+    
+    <link rel="stylesheet" href="style.css" />
+
+
+
+    <br>
+
+    <title>Next-Gen Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Next-Gen Work Day Scheduler</h1>
+      <p class="lead">A better calendar app for scheduling your work life</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container">
+
+      <!-- Timeschedule here -->
+
+      <div class="container">
+        <form class="time-block" id="8AM">
+          <div class="row">
+            <p class="hour col-2">8AM</p>
+            <textarea class="col-8 description" id="inlineFormInput"></textarea>
+            <button type="submit" data-event= "none" class="col-2 saveBtn"><i class="far fa-save"></i></button>
+          </div>
+        </form>
+      </div>
+  
+      <div class="row m-5">
+        <h2 class="col-md-9 text-center">Add Meeting to Schedule?</h2>
+        <button class="col-md-2 btn btn-success" id="Add">Add</button>
+      </div>
+  
+      <div class="row m-5">
+        <h2 class="col-md-9 text-center">Remove Meeting from Schedule?</h2>
+        <button class="col-md-2 btn btn-success" id="Remove">Remove</button>
+      </div>
+      
+    </div>
+
+   </head>
+
+  </body>
+</html>
